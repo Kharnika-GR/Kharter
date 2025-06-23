@@ -1,55 +1,59 @@
-# 🤝 Kharter — Peer-to-Peer Skill Barter Platform
+# SkillswapFrontend
 
-A full-stack web app where users **exchange skills instead of money**. Learn what you want by teaching what you know. Whether it’s graphic design for Python, or French for guitar — **Kharter** connects people to grow together, without a price tag.
----
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.2.
 
-## 🔥 Features
+## Development server
 
-- 🔐 **Authentication**
-  - Secure JWT-based Login/Register
-  - Scalable for future Google/GitHub social login
-- 🧑‍🏫 **Skill Profile Management**
-  - Users add skills they can **teach** and **want to learn**
-  - Availability and preferences support
-- 🔄 **Smart Matchmaking**
-  - Auto-pairs compatible users based on skill barter
-  - E.g., Alice wants to learn React, Bob can teach it & wants Figma
-- 💬 **Chat & Scheduling**
-  - In-app chat system with scheduling
-  - WebRTC or Zoom-ready integration scope
-- ⭐ **Reputation System**
-  - Post-session feedback & reporting
-  - Trust-based skill exchange
-- 📊 **User Dashboard**
-  - Track barter stats, completed sessions, top learners
-- 🎮 **Gamification (Planned)**
-  - Badges, XP, progress tracker
+To start a local development server, run:
 
----
-
-## 🧱 Tech Stack
-
-| Layer      | Tech                         | Purpose                                |
-|------------|------------------------------|----------------------------------------|
-| Frontend   | Angular (Standalone)         | Modern UI, routing, reactive forms     |
-| Backend    | Node.js + Express            | API layer & authentication             |
-| Database   | PostgreSQL                   | Stores users, skills, match history    |
-| Auth       | JWT (JSON Web Tokens)        | Stateless, secure sessions             |
-| Styling    | CSS3, Angular Animations     | Clean, responsive user experience      |
-
----
-
-## 🖼️ Screenshots
-
-| Register | Match Dashboard |
-|----------|-----------------|
-| ![](https://i.imgur.com/your-register.png) | ![](https://i.imgur.com/your-dashboard.png) |
-
----
-
-## 🚀 Getting Started
-
-### 🔧 Clone the Project
 ```bash
-git clone https://github.com/yourusername/kharter.git
-cd kharter
+ng serve
+```
+
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+
+## Code scaffolding
+
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+
+```bash
+ng generate component component-name
+```
+
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+
+```bash
+ng generate --help
+```
+
+## Building
+
+To build the project run:
+
+```bash
+ng build
+```
+
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+
+## Running unit tests
+
+To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+
+```bash
+ng test
+```
+
+## Running end-to-end tests
+
+For end-to-end (e2e) testing, run:
+
+```bash
+ng e2e
+```
+
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
+## Additional Resources
+
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
