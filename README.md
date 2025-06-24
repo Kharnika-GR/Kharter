@@ -2,8 +2,6 @@
 
 A full-stack web app where users **exchange skills instead of money**. Learn what you want by teaching what you know. Whether it’s graphic design for Python, or French for guitar — **Kharter** connects people to grow together, without a price tag.
 
-> ✨ The name “Kharter” = Kharnika + Barter
-
 ---
 
 ## Features
